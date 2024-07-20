@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Patient Profile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("/css/patient.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+      }
+
+      .banner {
+        background-color: rgb(82, 82, 82);
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .welcome-message {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #000000;
+        font-size: 30px;
+      }
+
+      .profile-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .profile-info label {
+        font-weight: bold;
+        color: #555;
+      }
+
+      .profile-info p {
+        margin: 10px 0;
+        color: #333;
+      }
+
+      .profile-image {
+        text-align: center;
+      }
+
+      .profile-image img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .button-container {
+        text-align: center;
+      }
+
+      .button-container button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .button-container button:hover {
+        background-color: #0056b3;
+      }
+
+      .upcoming-appointments {
+        margin-top: 40px;
+      }
+
+      .appointment {
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        padding: 15px;
+        margin-bottom: 20px;
+      }
+
+      .appointment p {
+        margin: 5px 0;
+      }
+
+      .appointment h3 {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <h2>Welcome to Your Patient Profile</h2>
+      <p>
+        Here you can view your personal and medical information, upcoming
+        appointments, and more.
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="welcome-message">
+        <p>Welcome back, Priyanshi Surana!</p>
+      </div>
+      <div class="profile-info">
+        <div class="profile-image">
+          <img src="/css/girlp.jpg" alt="Profile Picture" />
+        </div>
+        <div class="profile-details">
+          <p><label>Name:</label> Priyanshi Surana</p>
+          <p><label>Age:</label> 20</p>
+          <p><label>Gender:</label> Female</p>
+          <p><label>Email:</label> priyanshis00@gmail.com</p>
+          <p><label>Phone:</label> 9999999999</p>
+          <p>
+            <label>Address:</label> Basavangudi, Bull Temple Road, Bangalore,
+            Karnataka, India
+          </p>
+          <p><label>Doctor:</label> Dr. Puja</p>
+          <p><label>Appointment Date:</label> 15/03/2024</p>
+        </div>
+      </div>
+      <div class="button-container">
+        <button>Edit Profile</button>
+      </div>
+
+      <div class="upcoming-appointments">
+        <h2>Upcoming Appointments</h2>
+        <div class="appointment">
+          <h3>Appointment 1: Cardiology Checkup</h3>
+          <p><strong>Date:</strong> 18/03/2024</p>
+          <p><strong>Time:</strong> 10:00 AM</p>
+          <p><strong>Doctor:</strong> Dr. Puja</p>
+        </div>
+        <div class="appointment">
+          <h3>Appointment 2: Blood Test</h3>
+          <p><strong>Date:</strong> 20/03/2024</p>
+          <p><strong>Time:</strong> 11:30 AM</p>
+          <p><strong>Doctor:</strong> Dr. Ankit</p>
+        </div>
+        <div class="appointment">
+          <h3>Appointment 3: Follow-up Consultation</h3>
+          <p><strong>Date:</strong> 22/03/2024</p>
+          <p><strong>Time:</strong> 02:00 PM</p>
+          <p><strong>Doctor:</strong> Dr. Puja</p>
+        </div>
+        <div class="appointment">
+          <h3>Appointment 4: Ultrasound Scan</h3>
+          <p><strong>Date:</strong> 25/03/2024</p>
+          <p><strong>Time:</strong> 09:30 AM</p>
+          <p><strong>Doctor:</strong> Dr. Ritu</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
